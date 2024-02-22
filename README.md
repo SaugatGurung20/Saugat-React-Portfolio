@@ -26,12 +26,13 @@ This web developer portfolio showcases my projects, skills, and contact informat
 
 ## Installation
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine: 
+git clone git@github.com:SaugatGurung20/Saugat-React-Portfolio.git
 2. Navigate to the project directory:
 3. Install dependencies:
 
 ## Usage
-
+To accss live url : https://saugatgurung20.github.io/Saugat-React-Portfolio/
 To run the application locally:
 
 Enter npm run dev in you terminal then open the generated link to open my website
@@ -44,6 +45,11 @@ Enter npm run dev in you terminal then open the generated link to open my websit
 - HTML5
 - CSS3
 - JavaScript
+
+## Screenshot
+
+- ![screenshot](./public/images/Screenshot%202024-02-22%20at%2019.43.02.png)
+- ![screenshot](./public/images/Screenshot%202024-02-22%20at%2019.43.27.png)
 
 ## Contributing
 
