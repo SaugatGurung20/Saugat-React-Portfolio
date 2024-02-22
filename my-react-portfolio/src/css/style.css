@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/*header*/
+
+.navbar-brand {
+  margin: 0;
+  font-family: fantasy;
+  font-size: 40px !important;
+  font-weight: bold;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar-nav a:hover {
+  color: red;
+}
+
+.navbar {
+  background-color: #ffdab9;
+}
+/*hero banner*/
+
+.jumbotron {
+  background-color: skyblue !important; 
+}
+
+h3, h4, h5, h6  {
+  font-size: 40px !important;
+  font-family: fantasy !important;
+  margin-top: 40px !important;
+}
+/*Portfolio container*/
+.image-link {
+  position: relative;
+  display: inline-block;
+}
+
+.image-link img {
+  width: 100%; 
+  border-radius: 8px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.text-overlay p {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.first-image {
+  width: 200%; 
+}
+
+.work-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+}
+
+
+p {
+  color: skyblue;
+}
+/*contact*/
+
+.contact {
+  text-align: center;
+  
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 23px;
+  display: inline-block;
+}
+.contact-info p.email {
+  margin-right: 20px;
+}
+
+/* responsive media queries*/
+@media only screen and (max-width: 768px) {
+  .top-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .top-nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .page-section {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .top-nav {
+    padding: 10px;
+  }
+
+  .top-nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .page-section {
+    margin-bottom: 10px;
+  }
+
+  .hero-banner {
+    padding: 30px;
+  }
+
+  .hero-content {
+    margin-top: 20px;
+  }
+
+  .profile-photo {
+    width: 120px;
+    height: 120px;
+  }
+}
